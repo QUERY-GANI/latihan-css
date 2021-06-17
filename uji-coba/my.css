@@ -78,6 +78,7 @@ a:hover {
     line-height: 15px;
 }
 .kanan h1 {
+    text-align: end;
     margin-bottom: 26px;
 }
 .kanan img {

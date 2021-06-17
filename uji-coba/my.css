@@ -14,6 +14,20 @@ a {
 a:hover {
     color: black;
 }
+.decoration {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: gray;
+    z-index: 1;
+    padding: 10px;
+    border-bottom: white 5px solid;
+}
+.decoration h1 {
+    color: white;
+    text-align: center;
+}
 .container {
     position: relative;
     margin: 100px auto;

@@ -1,0 +1,80 @@
+body {
+    background-color: rgba(160, 160, 160, 0.541);
+    font-family: sans-serif;
+}
+p {
+    color: rgb(48, 48, 48);
+}
+a {
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+}
+a:hover {
+    color: black;
+}
+h1 {
+    color: rgb(32, 32, 32);
+    font-weight: bold;
+}
+.container {
+    margin: auto;
+    width: 960px;
+    background-color: white;
+}
+.nav {
+    padding: 10px 10px 8px;
+}
+.nav h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+.nav a {
+    margin-right: 6px;
+}
+.hero {
+    background-image: url(/assets/hero.gif);
+    background-size: cover;
+    height: 560px;
+}
+.konten {
+    padding: 15px 10px;
+}
+.konten h1 {
+    font-size: 1.5rem;
+}
+.konten p {
+    font-size: 0.9rem;
+}
+.konten .artikel h1 + p {
+    font-size: 0.7rem;
+    margin-bottom: 10px;
+}
+.konten .artikel p {
+    margin-bottom: 15px;
+}
+.artikel {
+    float: left;
+    width: 600px;
+}
+.profile {
+    float: right;
+    width: 300px;
+}
+.profile img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+}
+.profile p {
+    line-height: 15px;
+}
+.profile h1 {
+    margin-bottom: 10px;
+}
+.copy {
+    text-align: center;
+    background-color: white;
+    padding: 10px 15px;
+    border-top: gray 5px solid;
+}

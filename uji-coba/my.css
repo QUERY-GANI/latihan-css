@@ -15,8 +15,16 @@ a:hover {
     color: black;
 }
 .container {
-    margin: auto;
+    position: relative;
+    margin: 100px auto;
     width: 960px;
+}
+.container > a > img {
+    position: absolute;
+    right: -15px;
+    top: -18px;
+    width: 300px;
+    height: 300px;
 }
 .navbar {
     padding: 20px 20px 5px;
@@ -45,33 +53,35 @@ a:hover {
     font-size: 1.5rem;
     color: rgb(53, 53, 53);
 }
-.content .kanan {
+.content p {
+    font-size: 0.9rem;
+}
+.kanan {
     width: 300px;
     float: right;
 }
-.content .kanan .about {
-    margin-top: 16px;
+.kanan p {
+    line-height: 15px;
 }
-.about p {
-    font-size: 0.9rem;
+.kanan h1 {
+    margin-bottom: 26px;
 }
-.content .kanan img {
+.kanan img {
     float: left;
-    margin: 0 15px 0 0;
+    margin: 0 10px 0 0;
     border: gray 1px solid;
     box-sizing: border-box;
 }
-.content .kiri {
+.kiri {
     width: 600px;
     float: left;
 }
-.content .kiri h1 + p {
+.kiri h1 + p {
     margin: 5px 0 10px;
     font-size: 0.8rem;
 }
-.isi p {
+.content p {
     margin: 6px 0;
-    font-size: 0.9rem;
 }
 .copyright {
     background-color: white;
